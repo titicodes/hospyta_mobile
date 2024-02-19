@@ -3,12 +3,11 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:http/http.dart' as http;
-import 'package:social_media_app/app_services/network_controller.dart';
-import 'package:social_media_app/app_services/route_service.dart';
-import 'package:social_media_app/constants/enums.dart';
-import 'package:social_media_app/constants/urls.dart';
-import 'package:social_media_app/helpers/exceptions.dart';
-import 'package:social_media_app/utils/utility.dart';
+import '../../constants/enum.dart';
+import '../../constants/urls.dart';
+import '../../helpers/exceptions.dart';
+import '../../services/route_service.dart';
+import '../../utils/app_utility.dart';
 
 class ResponseData {
   ResponseData({

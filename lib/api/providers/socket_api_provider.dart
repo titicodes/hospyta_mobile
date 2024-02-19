@@ -2,9 +2,9 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:social_media_app/app_services/auth_service.dart';
-import 'package:social_media_app/constants/urls.dart';
-import 'package:social_media_app/utils/utility.dart';
+import '../../constants/urls.dart';
+import '../../utils/app_utility.dart';
+
 
 class SocketApiProvider {
   /// Factory constructor to return same static instance everytime you
